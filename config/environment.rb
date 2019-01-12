@@ -6,5 +6,5 @@ require_relative "../lib/student.rb"
 
 ActiveRecord::Base.establish_connection(
   :adapter => "sqlite3",
-  :database => "db/artist.sqlite"
+  :database => "db/student.sqlite"
 )
