@@ -1,8 +1,10 @@
 require 'sqlite3'
 require 'pry'
 require 'bundler/setup'
-Bundler.require
 require_relative "../lib/student.rb"
+Bundler.require
+
+
 
 ActiveRecord::Base.establish_connection(
   :adapter => "sqlite3",
